@@ -4,7 +4,7 @@ from africastalking.SMS import SMSService
 app = Flask(__name__)
 
 username = " chuka_devs"
-api_key = ""
+api_key = "5e8899b7edea5e1cfda0d34088b49bcd354ddcbde963dd0dc2a6329a204015e2"
 
 ussd = SMSService(username, api_key)
 
